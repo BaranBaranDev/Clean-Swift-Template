@@ -14,7 +14,7 @@ enum ___VARIABLE_sceneName___Builder {
         let worker = ___VARIABLE_sceneName___Worker()
         let presenter = ___VARIABLE_sceneName___Presenter()
         let router = ___VARIABLE_sceneName___Router()
-        let interactor = ___VARIABLE_sceneName___Interactor(worker: worker, presenter: presenter)
+        let interactor = ___VARIABLE_sceneName___Interactor(presenter: presenter, worker: worker)
         let vc = ___VARIABLE_sceneName___ViewController(interactor: interactor, router: router)
         
         //viewController referansı burada ayarlanıyor

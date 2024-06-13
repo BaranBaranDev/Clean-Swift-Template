@@ -11,7 +11,7 @@ import UIKit
 
 protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject {
     
-    func fetchUserDisplay(viewModel: HomePage.FetchUser.ViewModel)
+    func display(viewModel: ___VARIABLE_sceneName___Models.Something.ViewModel)
 }
 
 
@@ -68,6 +68,6 @@ final class ___VARIABLE_sceneName___ViewController: UIViewController{
 
 // MARK: - ___VARIABLE_sceneName___DisplayLogic
 
-extension HomePageViewController: ___VARIABLE_sceneName___DisplayLogic {
+extension ___VARIABLE_sceneName___ViewController: ___VARIABLE_sceneName___DisplayLogic {
 
 }
