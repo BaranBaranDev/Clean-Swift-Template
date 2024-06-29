@@ -11,7 +11,7 @@ import UIKit
 
 protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject {
     
-    func display(viewModel: ___VARIABLE_sceneName___Models.Something.ViewModel)
+    // func display(viewModel: ___VARIABLE_sceneName___Models.Something.ViewModel)
 }
 
 
